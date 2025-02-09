@@ -1199,7 +1199,7 @@ function getConfig(userIDs, hostName, proxyIP) {
 	const header = `
     <div class="container">
       <h1>MULANCLOUD: Protocol Configuration</h1>
-      <img src="https://cdn.jsdelivr.net/gh/6Kmfi6HP/EDtunnel@refs/heads/main/image/logo.png" alt="EDtunnel Logo" class="logo">
+      <img src="https://cdn.jsdelivr.net/gh/hija115/re@refs/heads/main/image/logo.png" alt="EDtunnel Logo" class="logo">
       <p>Welcome! This function generates configuration for the vless protocol.</p>
       <div style="clear: both;"></div>
       <div class="btn-group">
