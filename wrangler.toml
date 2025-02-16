@@ -1,11 +1,15 @@
-name = "cx"
+name = "hz"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
+[[routes]]
+pattern = "hz.mulancloud.web.id"
+custom_domain = true
+
 [vars]
-PROXYIP = "43.218.77.16:443"
-UUID = "c5f7c156-2d6d-4b64-a7ff-6abb19eb9840"
+PROXYIP = "103.168.146.169:20132"
+UUID = "d5ef2c40-d3d3-4e0f-9850-a68372aacd34"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
