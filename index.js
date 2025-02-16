@@ -1233,7 +1233,7 @@ function getConfig(userIDs, hostName, proxyIP) {
         </div>
         
         <h3>Best IP Configuration</h3>
-        z<div class="input-group mb-3">
+        <div class="input-group mb-3">
           <select class="form-select" id="proxySelect" onchange="updateProxyConfig()">
             ${typeof proxyIP === 'string' ? 
               `<option value="${proxyIP}">${proxyIP}</option>` : 
