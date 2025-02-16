@@ -1198,7 +1198,6 @@ function getConfig(userIDs, hostName, proxyIP) {
 
 	const header = `
     <div class="container">
-      <h1>MULANCLOUD: Protocol Configuration</h1>
       <img src="https://cdn.jsdelivr.net/gh/hija115/re@refs/heads/main/image/logo.png" alt="EDtunnel Logo" class="logo">
       <p>Welcome! This function generates configuration for the vless protocol.</p>
       <div style="clear: both;"></div>
@@ -1234,7 +1233,7 @@ function getConfig(userIDs, hostName, proxyIP) {
         </div>
         
         <h3>Best IP Configuration</h3>
-        <div class="input-group mb-3">
+        z<div class="input-group mb-3">
           <select class="form-select" id="proxySelect" onchange="updateProxyConfig()">
             ${typeof proxyIP === 'string' ? 
               `<option value="${proxyIP}">${proxyIP}</option>` : 
