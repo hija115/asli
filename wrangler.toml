@@ -1,15 +1,15 @@
-name = "ak"
+name = "ap"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
 [[routes]]
-pattern = "ak.mulancloud.web.id"
+pattern = "ap.dakona.my.id"
 custom_domain = true
 
 [vars]
-PROXYIP = "172.232.237.112:2053"
-UUID = "f152870f-63bc-461c-b77b-8ae1e54d2e2a"
+PROXYIP = "103.6.207.108:8080", "36.95.152.58:12137"
+UUID = "1e664f92-e392-43db-84a7-8c0cc8371f59"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
