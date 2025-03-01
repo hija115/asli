@@ -1,15 +1,15 @@
-name = "aw"
+name = "as"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
 [[routes]]
-pattern = "aw.dakona.my.id"
+pattern = "as.dakona.my.id"
 custom_domain = true
 
 [vars]
-PROXYIP = "15.235.199.103:2053"
+PROXYIP = "154.90.39.188:48071"
 UUID = "f670b76b-25fd-43b3-b721-41785b9a957c"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
