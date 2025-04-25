@@ -1,15 +1,23 @@
-name = "au"
+name = "xuts"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
 [[routes]]
-pattern = "au.dakona.my.id"
+pattern = "xuts.dakona.my.id"
+custom_domain = true
+
+[[routes]]
+pattern = "ava.game.naver.com.xuts.dakona.my.id"
+custom_domain = true
+
+[[routes]]
+pattern = "df.game.naver.com.xuts.dakona.my.id"
 custom_domain = true
 
 [vars]
-PROXYIP = "97.74.82.87:45837"
-UUID = "d5a09c3b-7cef-44ac-97c6-4b5e9377bb8f"
+PROXYIP = "110.34.164.39:28758"
+UUID = "99cead74-3895-488a-af5b-58fefaff97bb"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
